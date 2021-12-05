@@ -129,7 +129,7 @@ img {
 
 /* - - - раздел "заказать услугу" - - - */
 
-.service-section {
+.hero-section {
   background-color: var(--color-background-second);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -282,7 +282,7 @@ img {
 
 /* кнопка "заказать услугу" */
 
-.service-button {
+.hero-button {
   margin-top: 30px;
   display: block;
   margin-right: auto;
@@ -302,8 +302,8 @@ img {
   border-radius: 4px;
 }
 
-.service-button:hover,
-.service-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-style: none;
 }
