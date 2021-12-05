@@ -296,6 +296,69 @@ img {
   margin-right: 0;
 }
 
+/* контейнер соцсетей */
+
+.my-team-social-container {
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.my-team-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ссылки на соцсети */
+
+.instagram-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  /* background-color: #777; */
+  background-image: url('../images/instagram.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.twitter-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  /* background-color: #777; */
+  background-image: url('../images/twitter.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.facebook-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  /* background-color: #777; */
+  background-image: url('../images/facebook.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.linkedin-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  /* background-color: #777; */
+  background-image: url('../images/linkedin.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 50%;
+}
+
 /* - - - контакты (футер) - - - */
 
 .footer {
