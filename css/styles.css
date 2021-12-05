@@ -10,6 +10,7 @@
   --color-background-main: #fff;
   --color-background-second: #2f303a;
   --color-background-third: #f5f4fa;
+  --color-hero-background: rgba(47, 48, 58, 0.4);
   --grid-width: 70px;
   --grit-indent: 30px;
 }
@@ -130,7 +131,11 @@ img {
 /* - - - раздел "заказать услугу" - - - */
 
 .hero-section {
-  background-color: var(--color-background-second);
+  /* background-color: var(--color-background-second); */
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url('../images/hero-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -138,6 +143,62 @@ img {
 /* - - - раздел "зачем выбирать нас" - - - */
 
 .why-us-section {
+}
+
+.why-us-block:nth-child(1)::before {
+  display: block;
+  margin-bottom: 30px;
+  display: block;
+  content: '';
+  background-size: initial;
+  background-color: var(--color-background-third);
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/antenna.svg');
+  border-radius: 4px;
+}
+
+.why-us-block:nth-child(2)::before {
+  display: block;
+  margin-bottom: 30px;
+  display: block;
+  content: '';
+  background-size: initial;
+  background-color: var(--color-background-third);
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/clock.svg');
+  border-radius: 4px;
+}
+
+.why-us-block:nth-child(3)::before {
+  display: block;
+  margin-bottom: 30px;
+  display: block;
+  content: '';
+  background-size: initial;
+  background-color: var(--color-background-third);
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/diagram.svg');
+  border-radius: 4px;
+}
+
+.why-us-block:nth-child(4)::before {
+  display: block;
+  margin-bottom: 30px;
+  display: block;
+  content: '';
+  background-size: initial;
+  background-color: var(--color-background-third);
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/astronaut.svg');
+  border-radius: 4px;
 }
 
 .why-us-list {
@@ -305,7 +366,6 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-style: none;
 }
 
 /* - - - - - - -  ссылки - - - - - - -  */
@@ -435,6 +495,7 @@ img {
   background-color: var(--color-background-third);
   color: var(--color-title);
   padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .portfolio-nav-block:not(:last-child) {
