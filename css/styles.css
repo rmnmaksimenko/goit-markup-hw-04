@@ -108,6 +108,7 @@ img {
 .mail-phone-list {
   display: flex;
   margin-left: auto;
+  align-self: center;
 }
 
 .mail-phone-link {
@@ -539,8 +540,9 @@ img {
 /* список кнопок */
 .portfolio-nav-list {
   display: flex;
-  margin-bottom: 50px;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
 }
 
 /* стиль кнопок */
