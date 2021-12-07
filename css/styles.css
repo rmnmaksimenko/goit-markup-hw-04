@@ -11,6 +11,7 @@
   --color-background-second: #2f303a;
   --color-background-third: #f5f4fa;
   --color-hero-background: rgba(47, 48, 58, 0.4);
+  --color-social-network-main: #afb1b8;
   --grid-width: 70px;
   --grit-indent: 30px;
 }
@@ -317,11 +318,10 @@ img {
 
 /* ссылки на соцсети */
 
-.instagram-link {
+/* .instagram-link {
   display: block;
   width: 44px;
   height: 44px;
-  /* background-color: #777; */
   background-image: url('../images/instagram.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -333,7 +333,6 @@ img {
   display: block;
   width: 44px;
   height: 44px;
-  /* background-color: #777; */
   background-image: url('../images/twitter.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -345,7 +344,6 @@ img {
   display: block;
   width: 44px;
   height: 44px;
-  /* background-color: #777; */
   background-image: url('../images/facebook.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -357,12 +355,31 @@ img {
   display: block;
   width: 44px;
   height: 44px;
-  /* background-color: #777; */
   background-image: url('../images/linkedin.svg');
   background-position: center;
   background-repeat: no-repeat;
   color: #fff;
   border-radius: 50%;
+} */
+
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  fill: var(--color-social-network-main);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-link:hover {
+  fill: var(--color-fifth);
+  background-color: var(--color-fourth);
 }
 
 /* - - - контакты (футер) - - - */
