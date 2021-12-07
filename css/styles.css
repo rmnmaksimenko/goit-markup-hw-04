@@ -368,7 +368,6 @@ img {
   margin-right: var(--grit-indent);
   background-color: var(--color-background-main);
   color: #000;
-  height: 60px;
 }
 
 .customers-block:nth-child(6n) {
