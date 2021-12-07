@@ -137,8 +137,13 @@ img {
   background-image: url('../images/hero-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
+
   padding-top: 200px;
   padding-bottom: 200px;
+  /* background-size: inherit;
+  background-origin: content-box;
+  background-clip: content-box; */
+  /* background-attachment: fixed; */
 }
 
 /* - - - раздел "зачем выбирать нас" - - - */
