@@ -114,13 +114,13 @@ img {
 }
 
 .mail-phone-link {
+  display: flex;
   color: var(--color-main);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: flex;
 }
 
 .mail-phone-icon {
@@ -128,17 +128,15 @@ img {
   margin-bottom: auto;
   margin-right: 10px;
   fill: currentColor;
-  text-align: center;
 }
 
-.mail-phone-list-element {
+.mail-phone-list-element:not(:last-child) {
   margin-right: 50px;
-  margin-left: 0;
 }
 
-.mail-phone-list-element:last-child {
+/* .mail-phone-list-element:last-child {
   margin-right: 0;
-}
+} */
 
 /* - - - раздел "заказать услугу" - - - */
 
@@ -461,6 +459,7 @@ img {
 }
 
 .nav-link {
+  display: flex;
   color: var(--color-third);
   font-weight: 500;
   font-size: 14px;
