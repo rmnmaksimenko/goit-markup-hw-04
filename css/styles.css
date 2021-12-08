@@ -299,39 +299,6 @@ img {
   background-repeat: no-repeat;
   color: #fff;
   border-radius: 50%;
-}
-
-.twitter-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/twitter.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-radius: 50%;
-}
-
-.facebook-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/facebook.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-radius: 50%;
-}
-
-.linkedin-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/linkedin.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  border-radius: 50%;
 } */
 
 .social-link {
@@ -492,11 +459,6 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-
-/* .nav-link:focus,
-.nav-link:hover {
-  color: var(--color-fourth);
-} */
 
 /* ссылка на веб студию */
 
@@ -666,7 +628,6 @@ img {
 
 /* список работ */
 .portfolio-list {
-  /* display: inline-block; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -682,8 +643,6 @@ img {
   /* max-width: 370px; */
   flex-basis: calc((100% + var(--grit-indent)) / 3 - var(--grit-indent));
   margin-right: var(--grit-indent);
-  /* box-shadow: 0px 4px 4px 0px #00000040;
-  border: 1px solid #eeeeee; */
 
   margin-bottom: 30px;
 }
