@@ -120,6 +120,15 @@ img {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+}
+
+.mail-phone-icon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  fill: currentColor;
+  text-align: center;
 }
 
 .mail-phone-list-element {
