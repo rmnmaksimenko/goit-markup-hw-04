@@ -40,6 +40,10 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hidden-title {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -114,18 +118,16 @@ img {
 }
 
 .mail-phone-link {
+  align-items: center;
   display: flex;
   color: var(--color-main);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .mail-phone-icon {
-  margin-top: auto;
-  margin-bottom: auto;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -142,9 +144,10 @@ img {
 
 .hero-section {
   /* background-color: var(--color-background-second); */
-  background: rgba(47, 48, 58, 0.4);
+
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero-img.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -286,14 +289,16 @@ img {
 /* контейнер соцсетей */
 
 .my-team-social-container {
-  padding-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  margin-top: 16px;
 }
 
 .my-team-social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.my-team-social-block:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* ссылки на соцсети */
@@ -367,8 +372,8 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-  fill: var(--color-fifth);
-  background-color: var(--color-fourth);
+  fill: var(--color-fourth);
+  border-color: var(--color-fourth);
 }
 
 /* - - - контакты (футер) - - - */
@@ -466,7 +471,6 @@ img {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 /* ссылка на веб студию */
@@ -477,7 +481,6 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: var(--color-fourth);
   margin-right: 94px;
 }
@@ -515,13 +518,11 @@ img {
 .map-address-link {
   font-style: normal;
   color: var(--color-fifth);
-  text-decoration: none;
 }
 
 .mail-contacts-link {
   font-style: normal;
   color: var(--color-fifth-transparent);
-  text-decoration: none;
 }
 
 .contacts-block:not(:last-child) {
@@ -531,7 +532,6 @@ img {
 .phone-contacts-link {
   font-style: normal;
   color: var(--color-fifth-transparent);
-  text-decoration: none;
 }
 
 .link-backlight:hover,
@@ -543,11 +543,11 @@ img {
 }
 
 .footer-right-part {
-  padding-top: 12px;
   margin-left: 70px;
 }
 
 .footer-flex {
+  align-items: baseline;
   display: flex;
 }
 
@@ -656,11 +656,13 @@ img {
   margin-bottom: 30px;
 }
 
-.portfolio-block:hover,
-.portfolio-block:focus {
+.portfolio-block-link {
+  display: block;
+}
+
+.portfolio-block-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
 }
 
 .portfolio-block:nth-child(3n) {
